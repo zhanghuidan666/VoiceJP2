@@ -144,9 +144,9 @@
 
   <div id="input-container">
     <!-- “开始”按钮，点击后消失 -->
-    <button id="start-btn" type="button">开始</button>
+    <button id="start-btn" type="button">Start</button>
     <!-- 语音输入框 -->
-    <input id="text-input" type="text" placeholder="你可以说出单词" />
+    <input id="text-input" type="text" placeholder="You can voice input" />
     <button id="submit-btn" type="button">&#x2192;</button>
   </div>
 
@@ -347,7 +347,7 @@
         if (currentIndex < textList.length) {
           startRound();
         } else {
-          alert("恭喜，你已完成所有文本！");
+          alert("Congratulations, you have completed all the tests!");
           generateCSV();
         }
       }
